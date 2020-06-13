@@ -11,8 +11,9 @@ function createWindow() {
       webPreferences: {
           preload: `${__dirname}/preload.js`,    // preloadを追加
           enableRemoteModule: true               // warning対策
-      },
-      'icon': __dirname + '/self_d.ico' });
+      }
+      //,'icon': __dirname + '/self_d.ico'
+    });
 
     mainWindow.loadURL(url.format({
         pathname: path.join(__dirname, 'index.html'),
