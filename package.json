@@ -12,8 +12,8 @@
   },
   "scripts": {
     "start": "electron ./src",
-    "build-mac": "electron-packager ./src el_editor --platform=darwin --arch=x64 --overwrite --icon=src/self_d.ico",
-    "build-win": "electron-packager ./src el_editor --platform=win32 --arch=x64 --overwrite --icon=src/self_d.ico",
-    "build-linux": "electron-packager ./src el_editor --platform=linux --arch=x64 --overwrite --icon=src/self_d.ico"
+    "build-mac": "electron-packager ./src el_editor --platform=darwin --arch=x64 --overwrite --icon=src/self_d.ico --asar",
+    "build-win": "electron-packager ./src el_editor --platform=win32 --arch=x64 --overwrite --icon=src/self_d.ico --asar",
+    "build-linux": "electron-packager ./src el_editor --platform=linux --arch=x64 --overwrite --icon=src/self_d.ico --asar"
   }
 }
