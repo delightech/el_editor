@@ -1,5 +1,5 @@
 #!/bin/bash
 
-npm run build-linux
-npm run build-win
-npm run build-mac
+yarn build-linux
+yarn run build-win
+yarn build-mac
